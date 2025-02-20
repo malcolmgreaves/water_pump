@@ -1,0 +1,32 @@
+GOAL: A system to autonomously fill water from a large reservoir into a coffee machine's internal reservoir. The system should be able to operate by itself for an entire work day (10 hours) with absolutely minimal manual intervention. The only manual work needed should be to turn on the system at the beginning of the work day, refill the large reservoir at the end of the work day, and turn off the system at the end of the workday.  :: END GOAL
+
+DESIGN:
+
+COMPONENTS:
+- large reservoir (10 gallons)
+- coffee machine (note: already provided, immutable part of design)
+- tubing for water
+- water pump 
+- data transfer cable, compatible with pump and computer
+- low power, embedded computer
+- AC power adapter and plug (for computer)
+- computer case
+- waterproof tape
+- regular tape
+- water sensors
+- data transfer cables, compatible with computer and sensors
+:: END COMPONENTS
+
+CONNECTIONS:
+- The computer is inside of the case.
+- The ac power cable is plugged in and secured to the computer in the case.
+- The computer & case is affixed with regular tape to the outside (non-water side) of the large reservoir.
+- The water pump is affixed to the bottom of the inside of the large reservoir with waterproof tape (water side).
+- The data transfer cable is connected to the pump and computer. Each side of the connection is wrapped in water proof tape.
+- There are two water sensors. Both are affixed with waterproof tape to the side of the large reservoir (water side). One water sensor is placed immediately above the top of the water pump. This is called the low sensor. The other is placed at the top of the large reservoir. This is called the high sensor.
+
+::END CONNECTIONS
+
+::END
+
+::END DESIGN
