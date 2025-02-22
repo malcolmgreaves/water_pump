@@ -1,0 +1,31 @@
+FEASIBILITY:
+The current design is not fully feasible in its current form. While it includes a water reservoir, pump, sensors, and an embedded computer for automation, it lacks a clear mechanism to detect and control the water level inside the coffee machine’s internal reservoir. Without feedback from the coffee machine’s water level, the system risks overfilling or underfilling it.
+
+ADJUSTMENTS:
+
+Add a water sensor inside the coffee machine’s internal reservoir – This will allow the system to detect when the coffee machine needs more water and when to stop filling.
+Modify the pump control logic – The embedded computer should use feedback from the coffee machine's reservoir sensor to activate or deactivate the pump.
+Ensure proper water transfer tubing – A check valve should be added to prevent backflow, and the tubing should be securely connected to the coffee machine's reservoir inlet.
+Improve waterproofing and mounting – Instead of regular tape, use industrial-grade mounting brackets or adhesives for securing components, especially the embedded computer.
+Clarify the power source for the pump – If the pump is powered separately, ensure it has a proper relay or switch controlled by the embedded computer.
+PRODUCTS:
+
+Water Sensors:
+E.g., YoLink Smart Water Sensor (for detecting the water level inside the coffee machine’s reservoir).
+Water Pump:
+E.g., TERA PUMP Electric Water Transfer Pump (low-power, automatic shut-off).
+Tubing & Check Valve:
+E.g., Aquascape 1/2" check valve to prevent backflow.
+Embedded Computer:
+Raspberry Pi Zero 2 W (if computational control is needed).
+Data Transfer Cables:
+USB to GPIO cables for pump and sensor control.
+Adhesives & Mounting:
+3M VHB Waterproof Adhesive Tape or industrial brackets.
+FINAL SUGGESTIONS:
+
+Consider using a solenoid valve instead of a pump if the large reservoir is placed at a higher elevation than the coffee machine. This would allow gravity-fed water transfer and reduce power consumption.
+Implement a software failsafe that stops the pump if the high sensor or internal reservoir sensor fails.
+If possible, integrate a wireless alert system to notify when the large reservoir needs refilling.
+Use food-grade tubing to ensure safe water transfer to the coffee machine.
+With these modifications, the system will be fully autonomous and reliable for an entire workday.
