@@ -1,4 +1,6 @@
-GOAL: A system to autonomously fill water from a large reservoir into a coffee machine's internal reservoir. The system should be able to operate by itself for an entire work day (10 hours) with absolutely minimal manual intervention. The only manual work needed should be to turn on the system at the beginning of the work day, refill the large reservoir at the end of the work day, and turn off the system at the end of the workday.  :: END GOAL
+GOAL:
+A system to autonomously fill water from a large reservoir into a coffee machine's internal reservoir. The system should be able to operate by itself for an entire work day (10 hours) with absolutely minimal manual intervention. The only manual work needed should be to turn on the system at the beginning of the work day, refill the large reservoir at the end of the work day, and turn off the system at the end of the workday.
+:: END GOAL
 
 DESIGN:
 
@@ -23,10 +25,8 @@ CONNECTIONS:
 - The computer & case is affixed with regular tape to the outside (non-water side) of the large reservoir.
 - The water pump is affixed to the bottom of the inside of the large reservoir with waterproof tape (water side).
 - The data transfer cable is connected to the pump and computer. Each side of the connection is wrapped in water proof tape.
-- There are two water sensors. Both are affixed with waterproof tape to the side of the large reservoir (water side). One water sensor is placed immediately above the top of the water pump. This is called the low sensor. The other is placed at the top of the large reservoir. This is called the high sensor.
+- There are two water sensors. Both are affixed with waterproof tape to the side of the large reservoir (water side). One water sensor is placed immediately above the top of the water pump. This is called the low sensor. The other is placed at the top of the large reservoir. This is called the high sensor. The low sensor tells the system when large reservoir needs to be refilled. The high sensor lets the system know when the large reservoir is filled.
 
 ::END CONNECTIONS
-
-::END
 
 ::END DESIGN
