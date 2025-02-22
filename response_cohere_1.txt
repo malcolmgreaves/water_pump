@@ -3,22 +3,32 @@ The proposed design is feasible and appears well-thought-out. The system aims to
 ADJUSTMENTS:
 
 While the design is comprehensive, there is a potential issue with the placement of the water sensors in the large reservoir. The low sensor, placed above the water pump, may not accurately detect the water level if the pump's position causes a disturbance in the water flow. Consider placing the low sensor further away from the pump to ensure accurate readings.
+
 The high sensor in the large reservoir should be placed even higher to account for potential water displacement and to ensure the reservoir does not overflow.
+
 The design mentions an "automated refilling source" for the large reservoir, but this component is not explicitly included. If this is a critical part of the system, consider adding it to the COMPONENTS section and detailing its connection and operation.
 
 PRODUCTS:
 
 For the embedded computer (CONTROLLER), a Raspberry Pi 4B or similar single-board computer with GPIO capabilities would be suitable.
+
 The water pump should be a low-power, food-grade pump designed for continuous operation. A model like the Everbilt 1/6 HP Submersible Utility Pump could be a good fit.
+
 Waterproof tape: 3M Super 77 Spray Adhesive or similar, designed for long-term submersion.
+
 Water sensors: Consider the Atlas Scientific EZO-DO sensor for its accuracy and ease of integration with the CONTROLLER.
+
 Computer case: A waterproof, shockproof case like the Pelican 1060 Case would protect the CONTROLLER and its connections.
 Power adapters and plugs: Ensure these are rated for the voltage and current requirements of the pump and computer.
 
 FINAL SUGGESTIONS:
 
 Consider adding a backup power supply for the CONTROLLER to ensure uninterrupted operation in case of a power outage.
+
 Implement a self-diagnostic routine for the CONTROLLER at startup to check not only the connections but also the functionality of each component. This could help identify potential issues early on.
+
 Include a physical emergency stop button or switch to quickly deactivate the system in case of any unforeseen issues.
+
 Regularly monitor the water quality in both reservoirs to ensure the coffee machine's internal reservoir remains clean and free from contaminants.
+
 Document and share the system's design, operation, and any maintenance procedures with relevant staff to ensure proper usage and troubleshooting.
