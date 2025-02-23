@@ -1,0 +1,48 @@
+
+
+FEASIBILITY:
+All chosen components are compatible and available from reputable, economical sources. The selected parts are food grade, waterproof (including the sensor and its cable), and sufficient for the 5‑ft lift and 10‑ft run. These product pages provide economical purchasing options.
+::END FEASIBILITY::
+
+ADJUSTMENTS:
+- Ensure that the food‑grade ratings and waterproof certifications (IP68 or better) are verified on the product pages.
+- Confirm that the sensor’s cable and connector are rated for indefinite submersion.
+- Verify that the pump’s head rating meets your system’s requirements.
+::END ADJUSTMENTS::
+
+PRODUCTS:
+1. Reservoir:
+   - Suncast 55‑Gallon Resin Vertical Storage Tank  
+     URL: [https://www.homedepot.com/p/Suncast-55-Gal-Resin-Vertical-Storage-Tank-55-353/203570361](https://www.homedepot.com/p/Suncast-55-Gal-Resin-Vertical-Storage-Tank-55-353/203570361)
+2. Pump:
+   - VOVYO Mini Food Grade Pump VP35C  
+     URL: [https://www.vovyopump.com/products/food-grade-pumps/vp35c](https://www.vovyopump.com/products/food-grade-pumps/vp35c)
+3. Tubing:
+   - Food‑Grade Silicone Tubing (1/4‑inch ID)  
+     URL: [https://www.amazon.com/Food-Grade-Silicone-Tubing/dp/B07B8ZH3FQ](https://www.amazon.com/Food-Grade-Silicone-Tubing/dp/B07B8ZH3FQ)
+4. Check Valve:
+   - 1/4‑inch Inline Food Grade Check Valve  
+     URL: [https://www.amazon.com/Check-Valve-Food-Grade/s?k=1%2F4-inch+Inline+Food+Grade+Check+Valve](https://www.amazon.com/Check-Valve-Food-Grade/s?k=1%2F4-inch+Inline+Food+Grade+Check+Valve)
+5. Water Level Sensor:
+   - NTKDirect Liquid Level Sensor Cable Submersible Transmitter  
+     URL: [https://www.ebay.com/itm/156687645729](https://www.ebay.com/itm/156687645729)
+6. Controller:
+   - Raspberry Pi Zero W 2 (Raspberry Pi W 2)  
+     URL: [https://www.raspberrypi.com/products/raspberry-pi-zero-w-2/](https://www.raspberrypi.com/products/raspberry-pi-zero-w-2/)
+7. Relay/Motor Driver:
+   - SainSmart 2‑Channel Relay Module for Raspberry Pi  
+     URL: [https://www.amazon.com/SainSmart-2-Channel-Relay-Module-Arduino/dp/B0057OC5O8/](https://www.amazon.com/SainSmart-2-Channel-Relay-Module-Arduino/dp/B0057OC5O8/)
+8. Power Supplies:
+   - 12V 5A DC Power Supply Adapter  
+     URL: [https://www.amazon.com/12V-5A-60W-Switching-Power-Supply/dp/B00I92B0YQ/](https://www.amazon.com/12V-5A-60W-Switching-Power-Supply/dp/B00I92B0YQ/)
+   - 5V 2.5A USB Power Adapter  
+     URL: [https://www.amazon.com/Raspberry-Pi-Official-5V-2-5A-Power/dp/B01CD5VC92/](https://www.amazon.com/Raspberry-Pi-Official-5V-2-5A-Power/dp/B01CD5VC92/)
+::END PRODUCTS::
+
+FINAL SUGGESTIONS:
+- Test each component in a prototype to ensure proper integration and performance under continuous submersion.
+- Confirm that all parts, especially the sensor and pump, meet your local food safety and electrical standards.
+- Monitor sensor readings over an extended period to ensure waterproof connections remain reliable.
+- Use the provided URLs to compare prices and verify current specifications before purchasing.
+::END FINAL SUGGESTIONS::
+```

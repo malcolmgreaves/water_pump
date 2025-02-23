@@ -1,0 +1,38 @@
+FEASIBILITY:
+All the components remain compatible with the overall design. By selecting economical, food‑grade parts (including a submersible water level sensor with permanently waterproof cables and a Raspberry Pi W 2 controller), the system can reliably pump water from the large reservoir into the coffee machine’s internal reservoir while keeping costs low.
+::END FEASIBILITY::
+
+ADJUSTMENTS:
+- Ensure the water level sensor is rated for indefinite submersion (IP68 or better) and is food grade. Verify that its cable and connector are fully waterproof.
+- Use economical, off‑the‑shelf components (tubing, check valve, relay module, power supplies) that match the voltage and flow requirements.
+- Double‑check that the pump’s head rating (approximately 1.5–3 meters) is sufficient for the 5‑ft vertical lift plus friction losses over the 10‑ft run.
+::END ADJUSTMENTS::
+
+PRODUCTS:
+1. Reservoir:
+   - Suncast 55‑Gallon Resin Vertical Storage Tank (available at Home Depot) – an economical, food‑safe water tank.
+2. Pump:
+   - VOVYO Mini Food Grade Pump VP35C – a compact, economical, food‑grade submersible pump suitable for transferring water.
+3. Tubing:
+   - Food‑Grade Silicone Tubing (e.g., 1/4‑inch inner diameter, available on Amazon) – ensures safe potable water transfer.
+4. Check Valve:
+   - 1/4‑inch Inline Food Grade Check Valve (available on Amazon) – prevents backflow from the coffee machine.
+5. Water Level Sensor:
+   - NTKDirect Liquid Level Sensor Cable Submersible Transmitter (available on eBay for approximately US$67) – a fully waterproof (IP68) sensor with an integrated waterproof data cable.
+6. Controller:
+   - Raspberry Pi W 2 – the compact, wireless controller to process sensor data and control the pump.
+7. Relay/Motor Driver:
+   - SainSmart 2‑Channel Relay Module for Raspberry Pi – an economical module to safely switch the pump on/off.
+8. Power Supplies:
+   - 12V 5A DC Power Supply Adapter (for the pump)
+   - 5V 2.5A USB Power Adapter (for the Raspberry Pi W 2)
+::END PRODUCTS::
+
+FINAL SUGGESTIONS:
+- Test the water level sensor in a prototype setup to confirm that its continuous submersion performance meets long‑term reliability needs.
+- Verify that all wetted parts (pump, tubing, check valve, sensor) are certified food grade to ensure water safety.
+- Consider integrating simple status LEDs on the Raspberry Pi for real‑time monitoring of sensor readings and pump operation.
+- Ensure proper electrical isolation (using the relay module) and secure mounting of the sensor to avoid misreadings due to vibration or movement.
+- Confirm that the selected power supplies provide stable, regulated output for safe operation of both the pump and controller.
+::END FINAL SUGGESTIONS::
+```

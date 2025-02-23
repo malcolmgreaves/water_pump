@@ -1,0 +1,55 @@
+GOAL:
+Pump water from a large reservoir into a coffee machine's internal reservoir to maintain an automated and adequate water supply for brewing.
+::END GOAL::
+
+DESIGN:
+The system draws water from a large reservoir using a submersible pump. Water is pushed through tubing equipped with a check valve to ensure one-way flow into the coffee machine’s internal reservoir. A water level sensor monitors the reservoir in the coffee machine, and a controller (e.g., a microcontroller) receives sensor data to activate or deactivate the pump as needed.
+::END DESIGN::
+
+COMPONENTS:
+1. Large Water Reservoir – Stores the bulk supply of water.
+2. Submersible Water Pump – Draws water from the reservoir.
+3. Tubing/Pipes – Transports water from the pump to the coffee machine.
+4. Check Valve – Prevents backflow of water from the coffee machine.
+5. Water Level Sensor – Monitors the water level in the coffee machine’s internal reservoir.
+6. Controller (e.g., Arduino or similar microcontroller) – Processes sensor input and controls pump operation.
+7. Power Supply – Provides the necessary power to the pump and controller.
+::END COMPONENTS::
+
+CONNECTIONS:
+- Reservoir to Pump: The pump is installed within the reservoir to draw water.
+- Pump to Coffee Machine: Tubing connects the pump’s output directly to the coffee machine's internal reservoir.
+- Check Valve: Positioned inline on the tubing to ensure water flows only towards the coffee machine.
+- Water Level Sensor to Controller: Sensor wiring communicates water level data to the controller.
+- Controller to Pump: An electrical connection that allows the controller to activate or deactivate the pump.
+::END CONNECTIONS::
+
+SYSTEM OPERATION:
+The water level sensor continuously monitors the coffee machine's internal reservoir. When the water level drops below a preset threshold, the sensor sends a signal to the controller. The controller then activates the submersible pump, which draws water from the large reservoir and delivers it through the tubing into the coffee machine. The check valve prevents any backflow. Once the desired water level is reached, the sensor updates the controller, which then deactivates the pump, ensuring the internal reservoir remains optimally filled for brewing.
+::END SYSTEM OPERATION::
+
+FEASIBILITY:
+The design is feasible as it utilizes standard components (pump, sensor, controller, and check valve) and established control methods to automate water transfer between reservoirs.
+::END FEASIBILITY::
+
+ADJUSTMENTS:
+- Incorporate an overflow sensor or shutoff mechanism to prevent overfilling of the coffee machine’s internal reservoir.
+- Ensure all components (especially the pump and tubing) are rated for potable water use.
+- Calibrate the water level sensor to match the specific volume requirements of the coffee machine’s reservoir.
+::END ADJUSTMENTS::
+
+PRODUCTS:
+- Submersible Pump: Look for a model rated for continuous use and food-grade applications (e.g., models similar to the SHURFLO 2088 series).
+- Controller: Arduino Uno or Raspberry Pi Pico can be used for sensor monitoring and pump control.
+- Water Level Sensor: Ultrasonic sensors (e.g., HC-SR04) or float sensors depending on precision needs.
+- Check Valve: In-line, food-grade check valves available from industrial suppliers.
+- Tubing: Food-grade silicone or PVC tubing compatible with potable water.
+- Power Supply: A regulated power supply (e.g., 12V or 24V) matching the pump’s requirements.
+::END PRODUCTS::
+
+FINAL SUGGESTIONS:
+- Validate the water quality requirements and add a water filter if necessary to protect the coffee machine.
+- Consider a manual override or status indicator for maintenance and troubleshooting.
+- Ensure the controller software includes fail-safe timers to prevent continuous pump operation in case of sensor failure.
+- Verify the compatibility of electrical components with your local power standards.
+::END FINAL SUGGESTIONS::
